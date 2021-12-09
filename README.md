@@ -1,15 +1,22 @@
-# Basic Sample Hardhat Project
+# Play to Earn Game Protocol
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Play to Earn Game Protocol : Mint token for register as users, Heal Player, Fight between two player, Get Player Details. 
 
-Try running some of the following tasks:
+- For deploy contract 
 
 ```shell
-npx hardhat accounts
+
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+node scripts/deploy-game.js --network localhost
+
 ```
+
+- For Use Create Player token, Heal Player, Fight between two player, Get Player details
+
+```shell
+
+npx hardhat compile
+node scripts/deploy-game-call.js --network localhost
+
+```
+
